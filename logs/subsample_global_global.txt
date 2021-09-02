@@ -1,0 +1,5 @@
+267 strains were dropped during filtering
+	45 had no sequence data
+	2 strains were added back because they were in defaults/include.txt
+	222 of these were dropped because of subsampling criteria
+151 strains passed all filters

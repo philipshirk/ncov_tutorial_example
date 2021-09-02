@@ -1,0 +1,6 @@
+Note: You did not provide a sequence index, so Augur will generate one. You can generate your own index ahead of time with `augur index` and pass it with `augur filter --sequence-index`.
+45 strains were dropped during filtering
+	7 of these were dropped because they were in defaults/exclude.txt
+	38 of these were dropped because of 'division=USA'
+	2 strains were added back because they were in defaults/include.txt
+373 strains passed all filters

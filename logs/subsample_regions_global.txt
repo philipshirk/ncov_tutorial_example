@@ -1,0 +1,4 @@
+267 strains were dropped during filtering
+	418 of these were dropped by `--exclude-all`
+	151 strains were added back because they were in results/global/sample-global.txt
+151 strains passed all filters

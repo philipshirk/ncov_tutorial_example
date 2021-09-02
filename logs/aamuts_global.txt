@@ -1,0 +1,66 @@
+
+0.00	-TreeAnc: set-up
+
+0.24	-SequenceData: loaded alignment.
+
+0.24	-SeqData: making compressed alignment...
+
+0.59	-SequenceData: constructed compressed alignment...
+
+0.64	-TreeAnc.infer_ancestral_sequences with method: probabilistic, joint
+0.64	--TreeAnc._ml_anc_joint: type of reconstruction: Joint
+
+0.00	-TreeAnc: set-up
+
+0.16	-SequenceData: loaded alignment.
+
+0.16	-SeqData: making compressed alignment...
+
+0.38	-SequenceData: constructed compressed alignment...
+
+0.42	-TreeAnc.infer_ancestral_sequences with method: probabilistic, joint
+0.42	--TreeAnc._ml_anc_joint: type of reconstruction: Joint
+
+0.00	-TreeAnc: set-up
+
+0.10	-SequenceData: loaded alignment.
+
+0.10	-SeqData: making compressed alignment...
+
+0.21	-SequenceData: constructed compressed alignment...
+
+0.23	-TreeAnc.infer_ancestral_sequences with method: probabilistic, joint
+0.23	--TreeAnc._ml_anc_joint: type of reconstruction: Joint
+
+0.00	-TreeAnc: set-up
+
+0.05	-SequenceData: loaded alignment.
+
+0.06	-SeqData: making compressed alignment...
+
+0.08	-SequenceData: constructed compressed alignment...
+
+0.09	-TreeAnc.infer_ancestral_sequences with method: probabilistic, joint
+0.09	--TreeAnc._ml_anc_joint: type of reconstruction: Joint
+
+0.00	-TreeAnc: set-up
+
+0.05	-SequenceData: loaded alignment.
+
+0.05	-SeqData: making compressed alignment...
+
+0.07	-SequenceData: constructed compressed alignment...
+
+0.08	-TreeAnc.infer_ancestral_sequences with method: probabilistic, joint
+0.08	--TreeAnc._ml_anc_joint: type of reconstruction: Joint
+
+0.00	-TreeAnc: set-up
+
+0.06	-SequenceData: loaded alignment.
+
+0.06	-SeqData: making compressed alignment...
+
+0.10	-SequenceData: constructed compressed alignment...
+
+0.11	-TreeAnc.infer_ancestral_sequences with method: probabilistic, joint
+0.11	--TreeAnc._ml_anc_joint: type of reconstruction: Joint

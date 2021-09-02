@@ -1,0 +1,1 @@
+WARNING: insufficient colours available for trait pango_lineage - reusing colours!

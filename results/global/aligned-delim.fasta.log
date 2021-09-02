@@ -1,0 +1,237 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Mar 30 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    node77.hpc.biotech.cdc.gov (AVX, 62 GB RAM)
+Command: iqtree2 -ninit 2 -n 2 -me 0.05 -nt 4 -s results/global/aligned-delim.fasta -m GTR -ninit 10 -n 4
+Seed:    194974 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Sep  2 10:11:47 2021
+Kernel:  AVX - 4 threads (16 CPU cores detected)
+
+Reading alignment file results/global/aligned-delim.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 151 sites contain only gaps or ambiguous characters.
+Alignment has 151 sequences with 29903 columns, 1064 distinct patterns
+71 parsimony-informative, 228 singleton sites, 29604 constant sites
+                                                                                                                  Gap/Ambiguity  Composition  p-value
+   1  Wuhan_DELIM-GUNYDVBVERXHJDTKFVWR_Hu-1_DELIM-GUNYDVBVERXHJDTKFVWR_2019                                               0.50%    passed     99.98%
+   2  Wuhan_DELIM-GUNYDVBVERXHJDTKFVWR_WH01_DELIM-GUNYDVBVERXHJDTKFVWR_2019                                               0.50%    passed     99.98%
+   3  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1000_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        0.72%    passed     99.93%
+   4  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1008_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.15%    passed     99.97%
+   5  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1018_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.13%    passed     99.99%
+   6  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1038_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        2.15%    passed     99.31%
+   7  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1045_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.31%    passed     99.96%
+   8  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1048_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.45%    passed     99.95%
+   9  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1062_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        0.50%    passed    100.00%
+  10  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1120_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        6.05%    passed     96.95%
+  11  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1135_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        0.51%    passed    100.00%
+  12  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1139_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.12%    passed     99.99%
+  13  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1175_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        2.27%    passed     99.92%
+  14  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1186_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.99%    passed     99.36%
+  15  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1200_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.23%    passed     99.97%
+  16  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1208_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        1.18%    passed     99.97%
+  17  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC1251_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        6.01%    passed     94.73%
+  18  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC14_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          2.28%    passed     99.96%
+  19  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC157_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.57%    passed     99.99%
+  20  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC17_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.55%    passed     99.96%
+  21  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC174_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.56%    passed     99.98%
+  22  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC248_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.54%    passed    100.00%
+  23  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC29_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.52%    passed    100.00%
+  24  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC306_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.68%    passed     97.45%
+  25  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC319_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.51%    passed    100.00%
+  26  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC330_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.99%    passed     99.75%
+  27  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC380_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         2.28%    passed     99.98%
+  28  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC385_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.78%    passed     93.77%
+  29  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC534_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         2.08%    passed     99.19%
+  30  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC716_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.14%    passed     99.99%
+  31  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC616_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         7.79%    passed     90.96%
+  32  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC797_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.64%    passed     99.73%
+  33  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC800_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.17%    passed     99.97%
+  34  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC803_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         2.44%    passed     97.47%
+  35  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC808_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.18%    passed     99.99%
+  36  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC824_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.52%    passed    100.00%
+  37  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC851_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         2.29%    passed     99.80%
+  38  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC927_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.34%    passed     99.88%
+  39  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC962_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         3.53%    passed     97.77%
+  40  Australia_DELIM-GUNYDVBVERXHJDTKFVWR_VIC970_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         4.55%    passed     94.61%
+  41  China_DELIM-GUNYDVBVERXHJDTKFVWR_Beijing_IME-BJ05_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                   0.50%    passed     99.99%
+  42  China_DELIM-GUNYDVBVERXHJDTKFVWR_WHUHnCoV020_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        0.92%    passed     99.96%
+  43  China_DELIM-GUNYDVBVERXHJDTKFVWR_Wuhan_YB012611_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     0.50%    passed     99.94%
+  44  ENV_DELIM-GUNYDVBVERXHJDTKFVWR_USA_DELIM-GUNYDVBVERXHJDTKFVWR_UF-11_DELIM-GUNYDVBVERXHJDTKFVWR_2020                 0.50%    passed     99.99%
+  45  France_DELIM-GUNYDVBVERXHJDTKFVWR_10006HC_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  46  France_DELIM-GUNYDVBVERXHJDTKFVWR_10015BY_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  47  France_DELIM-GUNYDVBVERXHJDTKFVWR_10023FD_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.99%
+  48  France_DELIM-GUNYDVBVERXHJDTKFVWR_10041MR_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  49  France_DELIM-GUNYDVBVERXHJDTKFVWR_10045DZ_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  50  France_DELIM-GUNYDVBVERXHJDTKFVWR_10060KV_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.98%
+  51  France_DELIM-GUNYDVBVERXHJDTKFVWR_10068ND_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.99%
+  52  France_DELIM-GUNYDVBVERXHJDTKFVWR_10078MA_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  53  France_DELIM-GUNYDVBVERXHJDTKFVWR_40003KA_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  54  Germany_DELIM-GUNYDVBVERXHJDTKFVWR_BavPat1-ChVir929_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                 0.56%    passed     99.98%
+  55  France_DELIM-GUNYDVBVERXHJDTKFVWR_50001AR_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.99%
+  56  Germany_DELIM-GUNYDVBVERXHJDTKFVWR_BavPat3-ChVir1020_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                0.50%    passed     99.99%
+  57  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_139_32716_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.54%    passed     99.99%
+  58  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_209_33926_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.65%    passed     99.95%
+  59  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_222_33921_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.67%    passed     99.97%
+  60  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_226_35576_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.54%    passed     99.99%
+  61  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_227_35969_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.60%    passed     99.97%
+  62  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_246_32206_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.54%    passed    100.00%
+  63  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_248_32261_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.54%    passed     99.99%
+  64  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_259_31928_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.54%    passed     99.99%
+  65  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_37_35684_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.54%    passed     99.99%
+  66  Greece_DELIM-GUNYDVBVERXHJDTKFVWR_41_36861_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.54%    passed    100.00%
+  67  Guam_DELIM-GUNYDVBVERXHJDTKFVWR_GU-NHG-01_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  68  Hangzhou_DELIM-GUNYDVBVERXHJDTKFVWR_HZ-1_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                            0.56%    passed     99.96%
+  69  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC14_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             1.05%    passed     99.97%
+  70  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC20_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.54%    passed    100.00%
+  71  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC21_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.71%    passed     99.97%
+  72  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC26_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.65%    passed     99.99%
+  73  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC29_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.54%    passed     99.98%
+  74  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC51_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.54%    passed    100.00%
+  75  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC56a_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                            0.54%    passed    100.00%
+  76  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC8_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.54%    passed    100.00%
+  77  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC85_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.54%    passed    100.00%
+  78  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC88a_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                            0.54%    passed     99.99%
+  79  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC9_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.68%    passed     99.97%
+  80  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC96_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.79%    passed     99.95%
+  81  India_DELIM-GUNYDVBVERXHJDTKFVWR_GBRC97a_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                            0.54%    passed    100.00%
+  82  India_DELIM-GUNYDVBVERXHJDTKFVWR_GMC-KP1125_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.51%    passed    100.00%
+  83  India_DELIM-GUNYDVBVERXHJDTKFVWR_GMCKN318_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  84  India_DELIM-GUNYDVBVERXHJDTKFVWR_GMCTC469_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+  85  India_DELIM-GUNYDVBVERXHJDTKFVWR_nimh-2873_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          2.17%    passed     99.95%
+  86  India_DELIM-GUNYDVBVERXHJDTKFVWR_nimh-3952_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          2.26%    passed     99.89%
+  87  Iran_DELIM-GUNYDVBVERXHJDTKFVWR_HGRC-1.1-IPI-8206_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                   0.50%    passed     99.99%
+  88  Jamaica_DELIM-GUNYDVBVERXHJDTKFVWR_JM-CDC-7286_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                      0.50%    passed    100.00%
+  89  Japan_DELIM-GUNYDVBVERXHJDTKFVWR_P4-6_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                               0.50%    passed    100.00%
+  90  Malaysia_DELIM-GUNYDVBVERXHJDTKFVWR_189332_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.50%    passed    100.00%
+  91  Spain_DELIM-GUNYDVBVERXHJDTKFVWR_Valencia002_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        5.88%    passed     99.16%
+  92  Spain_DELIM-GUNYDVBVERXHJDTKFVWR_Valencia003_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                        0.57%    passed     99.99%
+  93  Spain_DELIM-GUNYDVBVERXHJDTKFVWR_Valencia22_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         4.42%    passed     99.67%
+  94  Spain_DELIM-GUNYDVBVERXHJDTKFVWR_Valencia8_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.56%    passed     99.99%
+  95  SriLanka_DELIM-GUNYDVBVERXHJDTKFVWR_COV38_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.99%
+  96  Taiwan_DELIM-GUNYDVBVERXHJDTKFVWR_CGMH-CGU-07_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                       0.50%    passed     99.99%
+  97  Thailand_DELIM-GUNYDVBVERXHJDTKFVWR_SI200615-NT_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     0.87%    passed     99.92%
+  98  Thailand_DELIM-GUNYDVBVERXHJDTKFVWR_SI204487-NT_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     0.86%    passed     99.96%
+  99  Thailand_DELIM-GUNYDVBVERXHJDTKFVWR_SI204512-NT_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     0.91%    passed     99.96%
+ 100  Thailand_DELIM-GUNYDVBVERXHJDTKFVWR_SI204514-NT_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     0.57%    passed    100.00%
+ 101  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CA-CZB-1033_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.50%    passed     99.99%
+ 102  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CA-CZB-1092_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.51%    passed     99.98%
+ 103  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CA-CZB-1114_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          8.03%    passed     97.31%
+ 104  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CA-CZB-1231_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                          0.50%    passed    100.00%
+ 105  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CA-CZB0137_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 106  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CA-CZB0750_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 107  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CT-UW-4244_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 108  USA_DELIM-GUNYDVBVERXHJDTKFVWR_CT-UW-5773_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 109  USA_DELIM-GUNYDVBVERXHJDTKFVWR_FL_5125_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.50%    passed    100.00%
+ 110  USA_DELIM-GUNYDVBVERXHJDTKFVWR_GA_2742_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.50%    passed    100.00%
+ 111  USA_DELIM-GUNYDVBVERXHJDTKFVWR_IN_2001_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.51%    passed    100.00%
+ 112  USA_DELIM-GUNYDVBVERXHJDTKFVWR_LA-BIE-072_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           4.23%    passed     99.93%
+ 113  USA_DELIM-GUNYDVBVERXHJDTKFVWR_LA-EVTL01_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                            0.50%    passed    100.00%
+ 114  USA_DELIM-GUNYDVBVERXHJDTKFVWR_LA_0842_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.50%    passed    100.00%
+ 115  USA_DELIM-GUNYDVBVERXHJDTKFVWR_MI-MDHHS-SC20242_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     0.50%    passed     99.97%
+ 116  USA_DELIM-GUNYDVBVERXHJDTKFVWR_MI-MDHHS-SC20284_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     1.44%    passed     99.95%
+ 117  USA_DELIM-GUNYDVBVERXHJDTKFVWR_MI-MDHHS-SC20302_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     1.53%    passed     99.94%
+ 118  USA_DELIM-GUNYDVBVERXHJDTKFVWR_MI-MDHHS-SC20356_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     0.55%    passed    100.00%
+ 119  USA_DELIM-GUNYDVBVERXHJDTKFVWR_MI-MDHHS-SC20389_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                     4.44%    passed     97.85%
+ 120  USA_DELIM-GUNYDVBVERXHJDTKFVWR_NY-CDC-SURV0144NYC_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                   0.50%    passed     99.99%
+ 121  USA_DELIM-GUNYDVBVERXHJDTKFVWR_NY-CDC-SURV0319NYC_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                   0.50%    passed    100.00%
+ 122  USA_DELIM-GUNYDVBVERXHJDTKFVWR_NY-PV08120_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.59%    passed    100.00%
+ 123  USA_DELIM-GUNYDVBVERXHJDTKFVWR_NY-PV09099_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.76%    passed     99.96%
+ 124  USA_DELIM-GUNYDVBVERXHJDTKFVWR_NY-PV09121_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           1.69%    passed     99.96%
+ 125  USA_DELIM-GUNYDVBVERXHJDTKFVWR_UNC_200181_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.99%
+ 126  USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0007_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.05%    passed     99.98%
+ 127  USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0110_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.50%    passed     99.98%
+ 128  USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0115_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         1.66%    passed     99.85%
+ 129  USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0120_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.50%    passed    100.00%
+ 130  USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0188_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.50%    passed    100.00%
+ 131  USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0199_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.50%    passed    100.00%
+ 132  USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0205_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                         0.50%    passed    100.00%
+ 133  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW-1327_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.64%    passed    100.00%
+ 134  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW-1599_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.99%
+ 135  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW-2212_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 136  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW-3881_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 137  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW-4291_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 138  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW-5756_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed    100.00%
+ 139  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW286_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.70%    passed     99.99%
+ 140  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW288_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.50%    passed    100.00%
+ 141  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA-UW340_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                             0.52%    passed    100.00%
+ 142  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA1_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                                  0.50%    passed     99.99%
+ 143  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA4-UW2_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.50%    passed     99.99%
+ 144  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA_5030_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                              0.50%    passed     99.99%
+ 145  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WI-UW-351_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                            0.56%    passed     99.99%
+ 146  USA_DELIM-GUNYDVBVERXHJDTKFVWR_WI-UW-360_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                            0.56%    passed    100.00%
+ 147  Uruguay_DELIM-GUNYDVBVERXHJDTKFVWR_Mdeo-1_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                           0.50%    passed     99.99%
+ 148  Vietnam_DELIM-GUNYDVBVERXHJDTKFVWR_nCoV-19-02S_DELIM-GUNYDVBVERXHJDTKFVWR_2020                                      0.50%    passed     99.99%
+ 149  Wuhan_DELIM-GUNYDVBVERXHJDTKFVWR_IPBCAMS-WH-03_DELIM-GUNYDVBVERXHJDTKFVWR_2019                                      0.50%    passed     99.97%
+ 150  mink_DELIM-GUNYDVBVERXHJDTKFVWR_Netherlands_DELIM-GUNYDVBVERXHJDTKFVWR_NB02_06KS_DELIM-GUNYDVBVERXHJDTKFVWR_2020    0.51%    passed     99.95%
+ 151  mink_DELIM-GUNYDVBVERXHJDTKFVWR_Netherlands_DELIM-GUNYDVBVERXHJDTKFVWR_NB01_01KS_DELIM-GUNYDVBVERXHJDTKFVWR_2020    0.95%    passed     99.96%
+****  TOTAL                                                                                                               1.09%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: France_DELIM-GUNYDVBVERXHJDTKFVWR_10060KV_DELIM-GUNYDVBVERXHJDTKFVWR_2020 is identical to Wuhan_DELIM-GUNYDVBVERXHJDTKFVWR_Hu-1_DELIM-GUNYDVBVERXHJDTKFVWR_2019 but kept for subsequent analysis
+NOTE: USA_DELIM-GUNYDVBVERXHJDTKFVWR_WA4-UW2_DELIM-GUNYDVBVERXHJDTKFVWR_2020 is identical to ENV_DELIM-GUNYDVBVERXHJDTKFVWR_USA_DELIM-GUNYDVBVERXHJDTKFVWR_UF-11_DELIM-GUNYDVBVERXHJDTKFVWR_2020 but kept for subsequent analysis
+NOTE: France_DELIM-GUNYDVBVERXHJDTKFVWR_10078MA_DELIM-GUNYDVBVERXHJDTKFVWR_2020 is identical to France_DELIM-GUNYDVBVERXHJDTKFVWR_10006HC_DELIM-GUNYDVBVERXHJDTKFVWR_2020 but kept for subsequent analysis
+NOTE: France_DELIM-GUNYDVBVERXHJDTKFVWR_40003KA_DELIM-GUNYDVBVERXHJDTKFVWR_2020 is identical to France_DELIM-GUNYDVBVERXHJDTKFVWR_10015BY_DELIM-GUNYDVBVERXHJDTKFVWR_2020 but kept for subsequent analysis
+NOTE: Greece_DELIM-GUNYDVBVERXHJDTKFVWR_259_31928_DELIM-GUNYDVBVERXHJDTKFVWR_2020 is identical to Greece_DELIM-GUNYDVBVERXHJDTKFVWR_139_32716_DELIM-GUNYDVBVERXHJDTKFVWR_2020 but kept for subsequent analysis
+NOTE: USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0205_DELIM-GUNYDVBVERXHJDTKFVWR_2020 is identical to USA_DELIM-GUNYDVBVERXHJDTKFVWR_VA-DCLS-0199_DELIM-GUNYDVBVERXHJDTKFVWR_2020 but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Greece_DELIM-GUNYDVBVERXHJDTKFVWR_37_35684_DELIM-GUNYDVBVERXHJDTKFVWR_2020 (identical to Greece_DELIM-GUNYDVBVERXHJDTKFVWR_139_32716_DELIM-GUNYDVBVERXHJDTKFVWR_2020) is ignored but added at the end
+Alignment was printed to results/global/aligned-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/global/aligned-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.016 seconds
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -43864.279
+2. Current log-likelihood: -43690.115
+Optimal log-likelihood: -43690.111
+Rate parameters:  A-C: 0.26652  A-G: 1.12153  A-T: 0.13841  C-G: 0.24076  C-T: 3.64062  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 2 rounds (0.549 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.093149 sec (of wall-clock time) 0.293871 sec(of CPU time)
+Computing RapidNJ tree took 0.033297 sec (of wall-clock time) 0.061071 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -43694.813
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 8 parsimony trees... 0.162 second
+Computing log-likelihood of 8 initial trees ... 0.095 seconds
+Current best score: -43680.676
+
+Do NNI search on 2 best initial trees
+BETTER TREE FOUND at iteration 1: -43680.653
+Finish initializing candidate tree set (12)
+Current best tree score: -43680.653 / CPU time: 0.469
+Number of iterations: 2
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+TREE SEARCH COMPLETED AFTER 4 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -43680.653
+Optimal log-likelihood: -43680.651
+Rate parameters:  A-C: 0.26731  A-G: 1.12009  A-T: 0.14137  C-G: 0.23995  C-T: 3.63988  G-T: 1.00000
+Base frequencies:  A: 0.299  C: 0.184  G: 0.196  T: 0.321
+Parameters optimization took 1 rounds (0.044 sec)
+BEST SCORE FOUND : -43680.651
+Total tree length: 0.011
+
+Total number of iterations: 4
+CPU time used for tree search: 3.089 sec (0h:0m:3s)
+Wall-clock time used for tree search: 0.919 sec (0h:0m:0s)
+Total CPU time used: 6.021 sec (0h:0m:6s)
+Total wall-clock time used: 1.740 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/global/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/global/aligned-delim.fasta.treefile
+  Likelihood distances:          results/global/aligned-delim.fasta.mldist
+  Screen log file:               results/global/aligned-delim.fasta.log
+
+Date and Time: Thu Sep  2 10:11:49 2021

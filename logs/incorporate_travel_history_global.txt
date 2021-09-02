@@ -1,0 +1,1 @@
+WARNING: Colour for country -> guam is missing & auspice will choose a shade of grey for this.

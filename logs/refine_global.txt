@@ -1,0 +1,33 @@
+augur refine is using TreeTime version 0.8.4
+
+4.19	TreeTime.reroot: with method or node: Wuhan/Hu-1/2019
+
+4.34	TreeTime.reroot: with method or node: Wuhan/Hu-1/2019
+
+4.48	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+    	tips at positions with AMBIGUOUS bases. This resulted in unexpected
+    	behavior is some cases and is no longer done by default. If you want to
+    	replace those ambiguous sites with their most likely state, rerun with
+    	`reconstruct_tip_states=True` or `--reconstruct-tip-states`.
+
+6.66	TreeTime.reroot: with method or node: Wuhan/Hu-1/2019
+
+8.19	###TreeTime.run: INITIAL ROUND
+
+14.74	TreeTime.reroot: with method or node: Wuhan/Hu-1/2019
+
+14.93	###TreeTime.run: rerunning timetree after rerooting
+
+21.77	###TreeTime.run: ITERATION 1 out of 2 iterations
+
+41.26	###TreeTime.run: ITERATION 2 out of 2 iterations
+
+127.34	###TreeTime.run: FINAL ROUND - confidence estimation via marginal
+      	reconstruction
+
+Inferred a time resolved phylogeny using TreeTime:
+	Sagulenko et al. TreeTime: Maximum-likelihood phylodynamic analysis
+	Virus Evolution, vol 4, https://academic.oup.com/ve/article/4/1/vex042/4794731
+
+updated tree written to results/global/tree.nwk
+node attributes written to results/global/branch_lengths.json
